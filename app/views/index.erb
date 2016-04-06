@@ -1,1 +1,24 @@
-<h1>Home Page</h1>
+<div class="container" >
+  <div class="jumbotron  text-center">
+    <h1>Contact List</h1>
+    <button id="viewAll" class="btn btn-primary btn-lg">View All</button>
+    <button id="create" class="btn btn-primary btn-lg">Create</button>
+    <br><br>
+  </div>
+  <div class="allContacts" style="display:none">
+    <table class="table table-bordered" id="contact-table"></table>
+  </div>
+
+  <div class="createContact" style="display:none">
+    <form class="form-group">
+      <h2>Create a contact.</h2>
+      First Name: <input class="form-control" id="firstname" type="text" name="firstname" value=""><br>
+      Last Name: <input class="form-control" id="lastname" type="text" name="lastname" value="" ><br>
+      email: <input class="form-control" id="email" type="text" name="email" value=""><br>
+      Phone: <input class="form-control" id="phone" type="text" name="phone" value=""><br>
+      <div class="btnCreate">
+        <button class="btn btn-success">Create</button>
+      </div>
+    </form>
+  </div>
+</div>
